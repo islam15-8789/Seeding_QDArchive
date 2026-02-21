@@ -1,0 +1,26 @@
+
+# Data and exports (large, user-specific)
+data/
+exports/
+*.db
+
+# Logs
+pipeline.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# PDM / venv
+.venv/
+.pdm-python
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
