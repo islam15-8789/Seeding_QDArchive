@@ -1,0 +1,77 @@
+# ── QDA tool / format queries ──
+qdpx
+REFI-QDA
+qualitative data analysis
+NVivo
+ATLAS.ti
+MaxQDA
+Dedoose
+QDAcity
+QDA Miner
+CAQDAS
+coded transcript
+
+# ── General qualitative queries (English) ──
+interview transcript
+qualitative research
+qualitative data
+focus group
+ethnography
+grounded theory
+semi-structured interview
+thematic analysis
+narrative analysis
+case study research
+participant observation
+qualitative coding
+open-ended responses
+open-ended questions
+biographical interview
+life history interview
+action research qualitative
+interpretive research
+interpretative phenomenological
+QualCoder
+mixed methods qualitative
+codebook qualitative
+
+# ── German ──
+qualitative Forschung
+qualitatives Interview
+Leitfadeninterview
+Gruppendiskussion
+Biografieforschung
+qualitative Inhaltsanalyse
+Transkript Interview
+
+# ── Dutch ──
+kwalitatief onderzoek
+kwalitatief interview
+focusgroep
+diepte-interview
+transcriptie interview
+
+# ── Norwegian ──
+kvalitativ forskning
+kvalitativt intervju
+fokusgruppe
+dybdeintervju
+
+# ── Spanish ──
+investigación cualitativa
+entrevista cualitativa
+grupo focal
+análisis temático
+transcripción entrevista
+
+# ── French ──
+recherche qualitative
+entretien qualitatif
+groupe de discussion
+analyse thématique
+
+# ── Portuguese ──
+pesquisa qualitativa
+entrevista qualitativa
+grupo focal
+análise temática

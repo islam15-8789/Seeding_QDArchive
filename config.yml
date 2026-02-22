@@ -1,0 +1,129 @@
+# ──────────────────────────────────────────────────
+# Harvester configuration
+# ──────────────────────────────────────────────────
+
+paths:
+  downloads: "downloads"
+  output: "output"
+  database: "harvester.db"
+  log: "harvester.log"
+
+# Recognised QDA software file extensions
+qda_formats:
+  - ".qdpx"
+  - ".qde"
+  - ".mx"
+  - ".mx18"
+  - ".mx20"
+  - ".mx22"
+  - ".mx24"
+  - ".nvp"
+  - ".nvpx"
+  - ".atlproj"
+  - ".ddx"
+  - ".qda"
+
+# Accepted qualitative document extensions (downloaded alongside QDA files)
+qualitative_formats:
+  - ".txt"
+  - ".pdf"
+  - ".rtf"
+  - ".docx"
+
+# Resource types that should be skipped (metadata only)
+excluded_resource_types:
+  - "publication"
+  - "presentation"
+  - "poster"
+  - "lesson"
+  - "software"
+  - "workflow"
+  - "image"
+  - "video"
+  - "event"
+  - "model"
+
+# Terms that indicate qualitative relevance (checked case-insensitively)
+relevance_keywords:
+  # English
+  - "qualitative"
+  - "interview"
+  - "focus group"
+  - "ethnograph"
+  - "grounded theory"
+  - "thematic analysis"
+  - "narrative analysis"
+  - "case study"
+  - "participant observation"
+  - "semi-structured"
+  - "in-depth interview"
+  - "transcript"
+  - "field note"
+  - "fieldwork"
+  - "life histor"
+  - "oral histor"
+  - "phenomenolog"
+  - "discourse analysis"
+  - "content analysis"
+  - "coding scheme"
+  - "coded data"
+  - "open-ended"
+  # QDA tool names (strong indicator)
+  - "nvivo"
+  - "atlas.ti"
+  - "maxqda"
+  - "dedoose"
+  - "qdacity"
+  - "qda miner"
+  - "refi-qda"
+  - "caqdas"
+  # Dutch
+  - "kwalitatief"
+  - "focusgroep"
+  - "etnograf"
+  # Norwegian
+  - "kvalitativ"
+  - "intervju"
+  - "fokusgruppe"
+  # German
+  - "qualitativ"
+  - "leitfadeninterview"
+  - "gruppendiskussion"
+  - "biografieforschung"
+  - "inhaltsanalyse"
+  - "transkript"
+  # Spanish
+  - "cualitativ"
+  - "entrevista"
+  - "grupo focal"
+  - "análisis temático"
+  # French
+  - "qualitatif"
+  - "entretien"
+  - "groupe de discussion"
+  # Portuguese
+  - "pesquisa qualitativa"
+  - "entrevista qualitativa"
+  - "análise temática"
+
+# Map source keys to human-readable folder names under downloads/
+folder_names:
+  qdr: "qdr"
+  borealis: "borealis"
+  dataversenl: "dataverse-nl"
+  sciencespo: "sciences-po"
+  rdg: "recherche-data-gouv"
+  abacus: "abacus-ubc"
+  jhu: "jhu-dataverse"
+  cora: "cora-catalonia"
+  ucla: "ucla-dataverse"
+  drntu: "dr-ntu-singapore"
+  goettingen: "goettingen-research"
+  nie: "nie-singapore"
+  figshare: "figshare"
+  osf: "osf"
+  fsd: "fsd-finland"
+  ia: "internet-archive"
+  loc: "library-of-congress"
+  eciencia: "eciencia-datos-madrid"
+  scielo: "scielo-data-brazil"
