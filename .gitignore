@@ -25,3 +25,7 @@ build/
 *.swo
 
 .DS_Store
+downloads/
+output/
+harvester.log
+
